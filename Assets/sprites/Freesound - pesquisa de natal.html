@@ -1,0 +1,2214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0070)https://freesound.org/search/?q=natal&f=&s=created+desc&advanced=0&g=1 -->
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt" dir="ltr" class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        
+        
+        
+        <meta name="description" content="Freesound: collaborative database of creative-commons licensed sound for musicians and sound lovers. Have you freed your sound today?">
+        <meta name="keywords" content="free, sound">
+        <link rel="stylesheet" type="text/css" href="./Freesound - pesquisa de natal_files/all.css">
+        <!--[if IE 6]><link rel="stylesheet" type="text/css" href="/media/css/ie6.css?v=1811" /><![endif]-->
+        <link rel="icon" href="https://freesound.org/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://freesound.org/apple-touch-icon.png">
+        <link rel="manifest" href="https://freesound.org/site.webmanifest">
+        <link rel="mask-icon" href="https://freesound.org/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00aba9">
+        <meta name="theme-color" content="#ffffff">
+        <title>Freesound - pesquisa de som</title>
+        <script src="./Freesound - pesquisa de natal_files/jquery-1.5.2.min.js.download" type="text/javascript"></script>
+        <script src="./Freesound - pesquisa de natal_files/jquery-ui-1.8.11.custom.min.js.download" type="text/javascript"></script>
+        <script src="./Freesound - pesquisa de natal_files/jquery.cookie.js.download" type="text/javascript"></script>
+        <script src="./Freesound - pesquisa de natal_files/swfobject.js.download" type="text/javascript"></script>
+        <script src="./Freesound - pesquisa de natal_files/jquery.watermarkinput.js.download" type="text/javascript"></script>
+        <script type="text/javascript">
+            var isLoggedIn = false;
+            var loginUrl = "/home/login/?next=/search/";
+            $(document).ready(function() {
+                 $("#search input[name=q]").Watermark("search sounds");
+            });
+            function clearWatermark(){
+			   $.Watermark.HideAll()
+			   return true
+			}
+        </script>
+        <script src="./Freesound - pesquisa de natal_files/freesound.js.download" type="text/javascript"></script>
+    	<script src="./Freesound - pesquisa de natal_files/ajax_utils.js.download" type="text/javascript"></script>
+        <!-- next couple of lines are used for the HTML player -->
+        <link href="./Freesound - pesquisa de natal_files/css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./Freesound - pesquisa de natal_files/player.css">
+        <script src="./Freesound - pesquisa de natal_files/soundmanager2.js.download"></script>
+        <script type="text/javascript" src="./Freesound - pesquisa de natal_files/player.js.download"></script>
+        <script async="" defer="" data-domain="freesound.org" src="./Freesound - pesquisa de natal_files/plausible.js.download"></script>
+        
+
+        
+
+    <style type="text/css">.force-graph-container canvas {
+  display: block;
+  user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.force-graph-container .graph-tooltip {
+  position: absolute;
+  transform: translate(-50%, 25px);
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 3px;
+  color: #eee;
+  background: rgba(0,0,0,0.65);
+  visibility: hidden; /* by default */
+}
+
+.force-graph-container .clickable {
+  cursor: pointer;
+}
+
+.force-graph-container .grabbable {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.force-graph-container .grabbable:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+</style><link type="text/css" rel="stylesheet" charset="UTF-8" href="./Freesound - pesquisa de natal_files/translateelement.css"></head>
+
+    <body id="" onload="" onunload="">
+
+        
+
+        <div id="header">
+            <div id="account_nav">
+                
+                    <a href="https://freesound.org/home/register/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Registro</font></font></a>
+                    <a href="https://freesound.org/home/login/?next=/search/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Conecte-se</font></font></a>
+                
+                <a href="https://freesound.org/home/upload/" id="upload_button"></a>
+            </div>
+
+            <a href="https://freesound.org/" id="logo"></a>
+
+            <div id="search">
+                <form method="get" onsubmit="return clearWatermark()" action="https://freesound.org/search/">
+                    <fieldset>
+                       <input type="text" name="q" value="" size="30" style="color: rgb(170, 170, 170);">
+                       <input type="submit" value="" id="search_submit">
+                    </fieldset>
+                </form>
+            </div>
+
+            <ul id="site_nav">
+                
+                <li class="active_tab"><a href="https://freesound.org/browse/" id="site_nav_sounds"><span class="site_nav_icon"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sons</font></font></a></li>
+                <li class=""><a href="https://freesound.org/forum/" id="site_nav_forums"><span class="site_nav_icon"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Fóruns</font></font></a></li>
+                <li class=""><a href="https://freesound.org/people/" id="site_nav_people"><span class="site_nav_icon"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pessoas</font></font></a></li>
+                <li class=""><a href="https://freesound.org/help/faq/" id="site_nav_help"><span class="site_nav_icon"></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajuda</font></font></a></li>
+
+            </ul>
+        </div>
+
+        <div id="wrapper">
+            <div id="container">
+
+            
+
+            
+<div id="content_full"> <!-- START of Content area -->
+
+
+<form id="search_form" method="get" onsubmit="return addAdvancedSearchOptionsFilters()" action="https://freesound.org/search/">
+    <fieldset>
+
+       <input id="query_input" type="text" name="q" value="natal" size="30">
+       <input id="filter_query" type="hidden" name="f" value="" size="30">
+       
+       <select name="s">
+            
+            <option value="score desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Automático por relevância</font></font></option>
+            
+            <option value="duration desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Duração (longa primeiro)</font></font></option>
+            
+            <option value="duration asc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Duração (curta primeiro)</font></font></option>
+            
+            <option value="created desc" selected="selected"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Data adicionada (mais recente primeiro)</font></font></option>
+            
+            <option value="created asc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Data adicionada (mais antiga primeiro)</font></font></option>
+            
+            <option value="num_downloads desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Downloads (a maioria primeiro)</font></font></option>
+            
+            <option value="num_downloads asc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Downloads (pelo menos primeiro)</font></font></option>
+            
+            <option value="avg_rating desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Classificação (mais alta primeiro)</font></font></option>
+            
+            <option value="avg_rating asc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Classificação (mais baixa primeiro)</font></font></option>
+            
+       </select>
+
+       <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" value="procurar" id="search_submit"></font></font>
+
+       <script type="text/javascript">
+
+    function showAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(1);
+        $("#enableShowButton").hide();
+        $("#advanced_search_options").show('blind', {}, 500, function() {});
+
+    }
+
+    function hideAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(0);
+        $("#advanced_search_options").hide('blind', {}, 500, function() {});
+        $("#enableShowButton").show();
+    }
+
+    function set_hidden_grouping_value(){
+        if ($("#grouping_geotagged").is(':checked')){
+            $("#grouping_geotagged_hidden").val("1")
+        }else{
+            $("#grouping_geotagged_hidden").val("")
+        }
+    }
+
+</script>
+
+
+<div id="advanced_search_options" class="advanced_search_options" style="display:none">
+<input id="advanced_search_hidden" type="hidden" name="advanced" value="0">
+
+<div style="margin-top:8px;"></div><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Procure em:&nbsp;
+</font></font><label><input type="checkbox" name="a_tag" value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Tag</font></font></label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_filename" value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nomes de arquivos</font></font></label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_description" value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Descrições</font></font></label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_packname" value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Nomes de pacotes</font></font></label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_soundid" value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Ids de som</font></font></label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_username" value="1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nomes de usuário </font></font></label>
+<span class="advanced_search_indication"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(se nenhum for selecionado, todos serão usados)</font></font></span>
+<br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+
+Duração entre</font></font><input class="inputtext" id="filter_duration_min" value="0" size="6"> <label for="filter_duration_min">(min)</label>
+and <input class="inputtext" id="filter_duration_max" value="*" size="6"> <label for="filter_duration_max">(max)</label> seconds<br>
+<input id="filter_is_geotagged" type="checkbox" value="1"> <label for="filter_is_geotagged">Only geotagged sounds</label><br>
+<input id="grouping_geotagged" type="checkbox" onchange="set_hidden_grouping_value()" checked=""> <label for="grouping_geotagged">Group sounds by pack</label>
+<input id="grouping_geotagged_hidden" type="hidden" name="g" value="1">
+
+<br>
+<span class="advanced_search_options_button"><a style="cursor:pointer;" onclick="hideAdvancedSearchOptions();">Hide advanced search options</a></span>
+</div>
+
+<span id="enableShowButton" class="advanced_search_options_button">
+    <div style="margin-top:4px;"></div>
+    <a style="cursor:pointer;" onclick="showAdvancedSearchOptions();"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mostrar opções de pesquisa avançada</font></font></a>
+</span>
+
+
+        <br>
+
+    </fieldset>
+</form>
+
+
+<p id="filter_query_display">
+
+
+
+</p>
+
+<div id="clustering-graph-modal" class="modal" style="display: none;">
+    <div id="clustering-graph" class="modal-content">
+        <div class="modal-header">
+            Clustering Visualisation
+            <span id="close-modal-button" class="close-modal">×</span>
+        </div>
+        <div id="chart-container" class="modal-body">
+            <div id="h1">Selected sounds (ctrl + click)</div>
+            <div id="h2"></div>
+            <div id="cluster-labels"></div>
+            <div id="graph"></div>
+            <div id="graph-loader" class="clustering-loader"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        // Fill advanced search fields that were passen on the f parameter
+        // Duration
+
+        if (getFilterValue("duration","min") == "")
+            $("#filter_duration_min").val("0");
+        else
+            $("#filter_duration_min").val(getFilterValue("duration","min"));
+
+        if (getFilterValue("duration","max") == "")
+            $("#filter_duration_max").val("*");
+        else
+            $("#filter_duration_max").val(getFilterValue("duration","max"));
+
+        // Geotagged
+        if (getFilterValue("is_geotagged")==1)
+               $("#filter_is_geotagged").attr('checked','checked')
+
+        // Extract terms from the query search box and highlight any of their occurrences in the descriptions
+        terms = document.getElementById("query_input").value.split(" ");
+
+        for(var i=0;i<terms.length;i++)
+        {
+        	term = terms[i];
+        	re = RegExp(term,"i"); // i for case-insensative
+
+        	descriptions = document.getElementsByClassName("description");
+        	for (var j=0;j<descriptions.length;j++)
+        	{
+        		descriptions[j].innerHTML = descriptions[j].innerHTML.replace(re,"<b>"+term+"</b>");
+        	}
+        }
+
+        
+    });
+
+    function addAdvancedSearchOptionsFilters()
+    {
+
+        // Remove existing previously existing advanced options filters (will be replaced by current ones)
+        existing_duration_filter = "duration:[" + getFilterValue("duration","min") + " TO " + getFilterValue("duration","max") + "]"
+        removeFilter(existing_duration_filter)
+        removeFilter("is_geotagged:1")
+
+        // if advanced options is activated add all updated filters
+        if ($("#advanced_search_hidden").val() == 1)
+        {
+
+            // Create and add new filter with all the advanced options
+            filter = ""
+
+            // Duration filter
+            duration_min = parseFloat($("#filter_duration_min").val())
+            duration_max = parseFloat($("#filter_duration_max").val())
+
+            if ((duration_min >= 0.0) || (duration_max >= 0.0))
+            {
+                duration_filter = ""
+
+                if ((duration_min >= 0.0) && (duration_max >= 0.0)) // Both min and max have been set
+                {
+                    if (duration_max < duration_min)
+                    {
+                        // interchange values if duration_min > duration_max
+                        duration_aux = duration_min
+                        duration_min = duration_max
+                        duration_max = duration_aux
+                    }
+
+                    duration_filter = "duration:[" + duration_min + " TO " + duration_max + "]"
+
+                }
+                else if (duration_min >= 0.0) // Only minimum has been set
+                {
+                    duration_filter = "duration:[" + duration_min + " TO *]"
+                }
+                else if (duration_max >= 0.0) // Only maximum has been set
+                {
+                    duration_filter = "duration:[* TO " + duration_max + "]"
+                }
+
+                filter = filter + duration_filter
+            }
+
+            // Is geotagged filter
+            if ($("#filter_is_geotagged").attr('checked')){
+                if (filter != "")
+                    filter = filter + " "
+                filter = filter + "is_geotagged:1"
+            }
+
+               // Update general filter with the advanced options filter
+            value = $("#filter_query").val();
+            if (value != "")
+                $("#filter_query").val(value + " " + filter);
+            else
+                $("#filter_query").val(filter);
+
+        }
+
+        return true
+    }
+
+    // Return the value of a filter given its name
+    // If filter has a range, optional "range" parameter must be set to "min or "max"
+    function getFilterValue(name, range)
+    {
+        if (!range) { range = "min"};
+
+        var value = $("#filter_query").val();
+        position_name = value.search(name)
+        position_value = value.search(name) + (name + ":").length
+        if (value.search((name + ":")) != -1)
+        {
+            if (value[position_value] == "[") // Is range (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("]") + 2
+
+                range_string = value.substring(position_value + 1, position_end -1) // Without [ ]
+                parts = range_string.split(" ")
+                if (range == "min")
+                    return parts[0]
+                else if (range == "max")
+                    return parts[2]
+            }
+            else if (value[position_value] == "\"") // Is string (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("\"") + 2
+                return value.substring(position_value, position_end)
+
+            }
+            else // Is number or normal text (without spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                if (aux_value.search(" ") != -1)
+                    position_end = position_value + aux_value.search(" ") + 1
+                else
+                    position_end = value.length
+
+                return value.substring(position_value, position_end)
+            }
+        }
+        else
+        {
+            return ""
+        }
+    }
+
+    // Remove a filter given the full tag ex: type:aiff, pack:"pack name"
+    function removeFilter(tag)
+    {
+        var value = $("#filter_query").val();
+        var cleaned = $.trim(value.replace(tag + " ", "").replace(tag, ""));
+        $("#filter_query").val(cleaned);
+    }
+
+    
+
+</script>
+
+
+    
+    <div id="sidebar" style="float:right">
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">licenças</font></font></h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20license:%22Attribution%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atribuição</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (79)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20license:%22Creative+Commons+0%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Creative Commons 0</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (13)</font></font></li>
+</ul>
+
+
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tag</font></font></h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22141-27-hz%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">141-27-hz </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%2224bit%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">24bit </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22422-8-hz%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">422-8-hz </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22845-2-hz%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">845-2-hz </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%2296k%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">96k </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22abrindo%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Abrindo </font></font></a></span> <span class="facet_item" style="font-size:0.8625em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22birds%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aves </font></font></a></span> <span class="facet_item" style="font-size:0.8625em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22calls%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chamadas </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22conga%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">conga </font></font></a></span> <span class="facet_item" style="font-size:0.8625em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22drip%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gotejamento </font></font></a></span> <span class="facet_item" style="font-size:0.8625em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22dripping%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gotejando </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22drum%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tambor </font></font></a></span> <span class="facet_item" style="font-size:1.675em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22efeito%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Efeito </font></font></a></span> <span class="facet_item" style="font-size:1.5125em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22field-recording%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">campo de gravação </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22golpes%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">golpes </font></font></a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22natal%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natal </font></font></a></span> <span class="facet_item" style="font-size:1.025em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22nature%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natureza </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22palm%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">palma </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22percussion%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">percussão </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22quinto%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">quinto </font></font></a></span> <span class="facet_item" style="font-size:0.8625em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22rain%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chuva </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22rumba%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rumba </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22skin%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pele </font></font></a></span> <span class="facet_item" style="font-size:1.025em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22sonoro%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sonoro </font></font></a></span> <span class="facet_item" style="font-size:0.8625em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22spanish%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">espanhol </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22tres%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tres </font></font></a></span> <span class="facet_item" style="font-size:1.8375em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22tumba%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tumba </font></font></a></span> <span class="facet_item" style="font-size:0.8625em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22turbine%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">turbina </font></font></a></span> <span class="facet_item" style="font-size:1.1875em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22water%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">água </font></font></a></span> <span class="facet_item" style="font-size:1.35em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20tag:%22wind%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vento</font></font></a></span> 
+</p>
+
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">modelo</font></font></h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20type:%22aiff%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aiff</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (62)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20type:%22flac%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">flac</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (1)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20type:%22mp3%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mp3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (2)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20type:%22wav%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wav</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (27)</font></font></li>
+</ul>
+
+
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">taxa de amostragem</font></font></h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20samplerate:%2224000%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">24000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (1)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20samplerate:%2244100%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">44100</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (18)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20samplerate:%2248000%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">48.000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (10)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20samplerate:%2296000%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">96000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (63)</font></font></li>
+</ul>
+
+
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bitdepth</font></font></h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20bitdepth:%2216%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (2)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20bitdepth:%2224%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">24</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (88)</font></font></li>
+</ul>
+
+
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">taxa de bits</font></font></h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20bitrate:%221040%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1040</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (4)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20bitrate:%221125%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1125</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (8)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20bitrate:%222068%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2068</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (4)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20bitrate:%222259%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2259</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (4)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20bitrate:%222304%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2304</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (43)</font></font></li>
+</ul>
+
+
+
+        
+
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">canais</font></font></h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20channels:%221%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (80)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20channels:%222%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (12)</font></font></li>
+</ul>
+
+
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">maços</font></font></h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20grouping_pack:%2211680_Chile%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chile</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (5)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20grouping_pack:%2212242_Tibetan+Singing+Bowls%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Taças Tibetanas</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (1)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20grouping_pack:%221302_Natal+Quinto%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Natal Quinto</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (62)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20grouping_pack:%2221755_Field-Recordings%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gravações de campo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (1)</font></font></li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20grouping_pack:%2228280_Puerto+Natales%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Puerto Natales</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (8)</font></font></li>
+</ul>
+
+
+
+        
+
+        
+            <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comercial</font></font></h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.675em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22cactusneon%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cactusneon </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22dawidsounds%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dawidsounds </font></font></a></span> <span class="facet_item" style="font-size:1.35em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22diegolar%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">diegolar </font></font></a></span> <span class="facet_item" style="font-size:1.025em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22dobroide%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dobroide </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22eardeer%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">eardeer </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22matpaglia%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">matpaglia </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22medicine+man%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">curandeiro </font></font></a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22ramjac%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ramjac </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22the_very_real_horst%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">the_very_real_horst </font></font></a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=natal&amp;f=%20username:%22zyga3d%22&amp;s=created%20desc&amp;cluster_id="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zyga3d</font></font></a></span> 
+</p>
+
+
+        
+
+    </div>
+
+        
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">anterior</font></font></li><li class="next-page"><a href="https://freesound.org/search/?q=natal&amp;s=created+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Próxima página"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">próximo</font></font></a></li><li class="current-page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></li><li class="other-page"><a href="https://freesound.org/search/?q=natal&amp;s=created+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Página 2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></a></li><p class="number_of_results"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            
+                &nbsp;| </font><font style="vertical-align: inherit;">92 sons
+            
+        </font></font></p></ul>
+
+
+            </div>
+
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="512090">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/512/512090_2155630-lq.mp3" title="mp3 file">Mkuze River.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/512/512090_2155630-lq.ogg" title="ogg file">Mkuze River.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/512/512090_2155630_wave_M.png" title="waveform file">Mkuze River.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/512/512090_2155630_spec_M.jpg" title="spectrogram file">Mkuze River.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">978950.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/512/512090_2155630_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-16: 18</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/eardeer/sounds/512090/" title="Mkuze River.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mkuze River.wav</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:97%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">*** Feliz 15º aniversário Freesound *** 15min. </font><font style="vertical-align: inherit;">trecho de um dos meus registros de campo naturais favoritos já feitos. </font><font style="vertical-align: inherit;">Gravado na África do Sul perto da cidade de Mkuze, ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/tropical/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tropical</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/south-africa/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">África do Sul</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/mkuze/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mkuze</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/field-recording/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">registro de campo</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/nature/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natureza</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/insects/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">insetos</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/africa/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">África</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/water/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">agua</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/fieldrecording/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">registro de campo</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/jungle/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">selva</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/ambience/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ambiente</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/river/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rio</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/birds/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pássaros</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Freesound15Years/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Freesound 15 anos</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_512090" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/eardeer/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">eardeer </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5 de abril de 2020 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/eardeer/sounds/512090/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">410 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/eardeer/sounds/512090/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 7 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            
+            <a class="pack" href="https://freesound.org/people/eardeer/packs/21755/">
+                <img src="./Freesound - pesquisa de natal_files/folder-open-document-music.png" width="16" height="16" alt="Pacote" title="Este som pertence ao pacote: Field-Recordings">
+            </a>
+            
+            
+            
+            <a class="geotag" href="https://freesound.org/people/eardeer/sounds/512090/geotag/">
+                <img src="./Freesound - pesquisa de natal_files/geotag.png" width="16" height="16" alt="Geotagged" title="Este som tem uma geotag">
+            </a>
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="505277">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/505/505277_1910728-lq.mp3" title="mp3 file">Rural wind turbine and high winds - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/505/505277_1910728-lq.ogg" title="ogg file">Rural wind turbine and high winds - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/505/505277_1910728_wave_M.png" title="waveform file">Rural wind turbine and high winds - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/505/505277_1910728_spec_M.jpg" title="spectrogram file">Rural wind turbine and high winds - spectrogram</a>
+<span class="duration" title="duration in seconds">408775.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/505/505277_1910728_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-06: 48</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Diegolar/sounds/505277/" title="Turbina eólica rural e ventos fortes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Turbina eólica rural eh ...</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uma turbina eólica gira dentro e fora de seu eixo sob a intensa mudança dos ventos de Magalhães. </font><font style="vertical-align: inherit;">Gravado com um NTG3 ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/gust/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rajada</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/turbine/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">turbina</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/generator/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gerador</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/windy/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ventoso</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/wind/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vento</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_505277" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Diegolar/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Diegolar </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6 de fevereiro de 2020 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Diegolar/sounds/505277/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">26 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/Diegolar/sounds/505277/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Diegolar/sounds/505277/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Diegolar/packs/28280/">
+                <img src="./Freesound - pesquisa de natal_files/folder-open-document-music.png" width="16" height="16" alt="Pacote" title="Este som pertence ao bando: Puerto Natales">
+            </a>
+            
+            
+            
+            <a class="geotag" href="https://freesound.org/people/Diegolar/sounds/505277/geotag/">
+                <img src="./Freesound - pesquisa de natal_files/geotag.png" width="16" height="16" alt="Geotagged" title="Este som tem uma geotag">
+            </a>
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/by.png" width="16" height="16" alt="Licença de atribuição Creative Commons" title="Este som está licenciado pela licença Creative Commons Attribution.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./Freesound - pesquisa de natal_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=natal&amp;f=grouping_pack:%2228280_Puerto%20Natales%22%20&amp;s=%22created%20desc%22&amp;g=1&amp;advanced=0&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username="><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mais 7 resultados</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> no mesmo pack "Puerto Natales"</font></font></div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="422105">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/422/422105_7515092-lq.mp3" title="mp3 file">merry christmas by zyga3d.mp3 - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/422/422105_7515092-lq.ogg" title="ogg file">merry christmas by zyga3d.mp3 - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/422/422105_7515092_wave_M.png" title="waveform file">merry christmas by zyga3d.mp3 - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/422/422105_7515092_spec_M.jpg" title="spectrogram file">merry christmas by zyga3d.mp3 - spectrogram</a>
+<span class="duration" title="duration in seconds">1527430.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="play toggle-alt on"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="loop toggle-alt on"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/422/422105_7515092_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 7.64376%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-23:30</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/zyga3d/sounds/422105/" title="Feliz Natal por zyga3d.mp3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">feliz natal por zyga3 ...</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:60%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Um material feito que eu quero fazer um portfólio com meus sons grátis para usar em vídeos de jogos ou ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/beautiful/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bela</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/chritmas/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chritmas</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/solemn/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">solene</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/christmas/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Natal</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Nativity/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natividade</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/christmadtide/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">maré de natal</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Yule/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yule</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Noel/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Noel</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/night/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">noite</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/religious/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">religioso</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/xmas/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natal</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/day/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dia</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/ceremonial/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cerimonial</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/ano/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ano</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/de/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">de</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/natal/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natal</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/holyday/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">feriado</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/fim/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fim</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_422105" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/zyga3d/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zyga3d </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">18 de março de 2018 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/zyga3d/sounds/422105/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">75 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/zyga3d/sounds/422105/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 1 comentário</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/by.png" width="16" height="16" alt="Licença de atribuição Creative Commons" title="Este som está licenciado pela licença Creative Commons Attribution.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="396314">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/396/396314_8043-lq.mp3" title="mp3 file">20170618_dripping.cave.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/396/396314_8043-lq.ogg" title="ogg file">20170618_dripping.cave.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/396/396314_8043_wave_M.png" title="waveform file">20170618_dripping.cave.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/396/396314_8043_spec_M.jpg" title="spectrogram file">20170618_dripping.cave.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">121747.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/396/396314_8043_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-02: 01</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/dobroide/sounds/396314/" title="20170618_dripping.cave.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20170618_dripping.cave.wav</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:63%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Água pingando dentro de uma caverna, sem ecos, sem outros sons. </font><font style="vertical-align: inherit;">O teto é baixo (a caverna é um tubo de lava, ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/melting/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Derretendo</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/field-recording/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">registro de campo</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/nature/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natureza</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/cave/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">caverna</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/dripping/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gotejamento</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rain/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chuva</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drip/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pingar</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/water/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">agua</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/claustrophobia/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">claustrofobia</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/drops/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gotas</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_396314" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/dobroide/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">dobroide </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">27 de junho de 2017 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/dobroide/sounds/396314/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">395 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/dobroide/sounds/396314/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 3 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/dobroide/sounds/396314/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <a class="geotag" href="https://freesound.org/people/dobroide/sounds/396314/geotag/">
+                <img src="./Freesound - pesquisa de natal_files/geotag.png" width="16" height="16" alt="Geotagged" title="Este som tem uma geotag">
+            </a>
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/by.png" width="16" height="16" alt="Licença de atribuição Creative Commons" title="Este som está licenciado pela licença Creative Commons Attribution.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="396146">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/396/396146_2884425-lq.mp3" title="mp3 file">Plaza Casa Natal de Sarmiento-San Juan Capital_21.15_H6-XY90°_16.06.2017.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/396/396146_2884425-lq.ogg" title="ogg file">Plaza Casa Natal de Sarmiento-San Juan Capital_21.15_H6-XY90°_16.06.2017.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/396/396146_2884425_wave_M.png" title="waveform file">Plaza Casa Natal de Sarmiento-San Juan Capital_21.15_H6-XY90°_16.06.2017.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/396/396146_2884425_spec_M.jpg" title="spectrogram file">Plaza Casa Natal de Sarmiento-San Juan Capital_21.15_H6-XY90°_16.06.2017.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">75040.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/396/396146_2884425_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-01: ​​15</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/matpaglia/sounds/396146/" title="Plaza Casa Natal de Sarmiento-San Juan Capital_21.15_H6-XY90 ° _16.06.2017.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Plaza Casa Natal de Sarm ...</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sonido de la plaza Casa </font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">natal</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> de Sarmiento-San Juan Capital Argentina_21.15hs_16.06.2017 Gravador: Zomm H6 XY 90 ° 48000HZ-24bit</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/recording/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gravação</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/field/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">campo</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/zoomh6/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomh6</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/park-city/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cidade-parque</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_396146" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/matpaglia/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">matpaglia </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">24 de junho de 2017 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/matpaglia/sounds/396146/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">24 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/matpaglia/sounds/396146/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/matpaglia/sounds/396146/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <a class="geotag" href="https://freesound.org/people/matpaglia/sounds/396146/geotag/">
+                <img src="./Freesound - pesquisa de natal_files/geotag.png" width="16" height="16" alt="Geotagged" title="Este som tem uma geotag">
+            </a>
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394113">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394113_7429252-lq.mp3" title="mp3 file">ZIPPER BOOM.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394113_7429252-lq.ogg" title="ogg file">ZIPPER BOOM.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394113_7429252_wave_M.png" title="waveform file">ZIPPER BOOM.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394113_7429252_spec_M.jpg" title="spectrogram file">ZIPPER BOOM.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">6618.68</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394113_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-00: 06</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394113/" title="ZIPPER BOOM.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ZIPPER BOOM.wav</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/ziper/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zíper</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/abrindo/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">abrindo</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/bolsa/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bolsa</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394113" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cactusneon </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">27 de maio de 2017 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394113/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">50 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394113/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394113/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394112">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394112_7429252-lq.mp3" title="mp3 file">TAMPA DESODORANTE BOBOM.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394112_7429252-lq.ogg" title="ogg file">TAMPA DESODORANTE BOBOM.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394112_7429252_wave_M.png" title="waveform file">TAMPA DESODORANTE BOBOM.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394112_7429252_spec_M.jpg" title="spectrogram file">TAMPA DESODORANTE BOBOM.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">21987.1</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394112_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-00: 21</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394112/" title="TAMPA DESODORANTE BOBOM.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TAMPA DESODORANTE BOBOM.wav</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/efeito/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">efeito</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rosquear/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rosquear</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/estralos/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">estralos</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394112" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cactusneon </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">27 de maio de 2017 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394112/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394112/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394112/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394111">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394111_7429252-lq.mp3" title="mp3 file">TALHER SM81.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394111_7429252-lq.ogg" title="ogg file">TALHER SM81.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394111_7429252_wave_M.png" title="waveform file">TALHER SM81.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394111_7429252_spec_M.jpg" title="spectrogram file">TALHER SM81.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">14234.8</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394111_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-00: 14</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394111/" title="TALHER SM81.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TALHER SM81.wav</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/prato/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">prato</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/comendo/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">comendo</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/talheres/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">talheres</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394111" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cactusneon </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">27 de maio de 2017 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394111/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">61 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394111/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394111/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394110">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394110_7429252-lq.mp3" title="mp3 file">SALTO BOOM.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394110_7429252-lq.ogg" title="ogg file">SALTO BOOM.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394110_7429252_wave_M.png" title="waveform file">SALTO BOOM.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394110_7429252_spec_M.jpg" title="spectrogram file">SALTO BOOM.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">3384.72</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394110_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-00: 03</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394110/" title="SALTO BOOM.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SALTO BOOM.wav</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/salto/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">salto</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/efeito/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">efeito</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/passos/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">passos</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394110" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cactusneon </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">27 de maio de 2017 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394110/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">183 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394110/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394110/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394109">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394109_7429252-lq.mp3" title="mp3 file">PILHA BOOM.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394109_7429252-lq.ogg" title="ogg file">PILHA BOOM.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394109_7429252_wave_M.png" title="waveform file">PILHA BOOM.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394109_7429252_spec_M.jpg" title="spectrogram file">PILHA BOOM.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">12443.4</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">a pausa</font></font></a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ciclo</font></font></a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394109_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-00: 12</font></font></div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394109/" title="PILHA BOOM.wav"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PILHA BOOM.wav</font></font></a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atualmente / 5 estrelas.</font></font></li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</font></font></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/mesa/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mesa</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/pilha/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pilha</font></font></a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rolando/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rolando</font></font></a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394109" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/">cactusneon</a><br>
+        <span class="date">May 27th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394109/downloaders/">16 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394109/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394109/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394108">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394108_7429252-lq.mp3" title="mp3 file">MASTIGAR BISCOITO SM 8.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394108_7429252-lq.ogg" title="ogg file">MASTIGAR BISCOITO SM 8.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394108_7429252_wave_M.png" title="waveform file">MASTIGAR BISCOITO SM 8.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394108_7429252_spec_M.jpg" title="spectrogram file">MASTIGAR BISCOITO SM 8.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">21954.4</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394108_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:21</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394108/" title="MASTIGAR BISCOITO SM 8.wav">MASTIGAR BISCOITO SM 8.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Efeito/">Efeito</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Biscoito/">Biscoito</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Mastigando/">Mastigando</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394108" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/">cactusneon</a><br>
+        <span class="date">May 27th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394108/downloaders/">52 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394108/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394108/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394107">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394107_7429252-lq.mp3" title="mp3 file">GARRAFA AGUA SM 8.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394107_7429252-lq.ogg" title="ogg file">GARRAFA AGUA SM 8.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394107_7429252_wave_M.png" title="waveform file">GARRAFA AGUA SM 8.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394107_7429252_spec_M.jpg" title="spectrogram file">GARRAFA AGUA SM 8.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">61810.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394107_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-01:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394107/" title="GARRAFA AGUA SM 8.wav">GARRAFA AGUA SM 8.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/sonoro/">sonoro</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/gua/">gua</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/efeito/">efeito</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394107" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/">cactusneon</a><br>
+        <span class="date">May 27th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394107/downloaders/">14 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394107/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394107/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394106">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394106_7429252-lq.mp3" title="mp3 file">CHUPANDO BOOM.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394106_7429252-lq.ogg" title="ogg file">CHUPANDO BOOM.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394106_7429252_wave_M.png" title="waveform file">CHUPANDO BOOM.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394106_7429252_spec_M.jpg" title="spectrogram file">CHUPANDO BOOM.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">4150.93</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394106_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:04</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394106/" title="CHUPANDO BOOM.wav">CHUPANDO BOOM.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/sonoro/">sonoro</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/chupando/">chupando</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/efeito/">efeito</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394106" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/">cactusneon</a><br>
+        <span class="date">May 27th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394106/downloaders/">17 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394106/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394106/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394105">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394105_7429252-lq.mp3" title="mp3 file">CADERNO QUE PARECE SERROTE COM FLANGER.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394105_7429252-lq.ogg" title="ogg file">CADERNO QUE PARECE SERROTE COM FLANGER.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394105_7429252_wave_M.png" title="waveform file">CADERNO QUE PARECE SERROTE COM FLANGER.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394105_7429252_spec_M.jpg" title="spectrogram file">CADERNO QUE PARECE SERROTE COM FLANGER.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">18500.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394105_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:18</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394105/" title="CADERNO QUE PARECE SERROTE COM FLANGER.wav">CADERNO QUE PARECE SERRO...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/serrote/">serrote</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/flanger/">flanger</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/efeito/">efeito</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/caderno/">caderno</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394105" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/">cactusneon</a><br>
+        <span class="date">May 27th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394105/downloaders/">19 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394105/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394105/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="394104">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/394/394104_7429252-lq.mp3" title="mp3 file">BAQUETA BOOM.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/394/394104_7429252-lq.ogg" title="ogg file">BAQUETA BOOM.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/394/394104_7429252_wave_M.png" title="waveform file">BAQUETA BOOM.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/394/394104_7429252_spec_M.jpg" title="spectrogram file">BAQUETA BOOM.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">3664.85</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="a pausa" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="ciclo" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/394/394104_7429252_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:03</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/cactusneon/sounds/394104/" title="BAQUETA BOOM.wav">BAQUETA BOOM.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Efeito sonoro gravado nos estúdios de áudio da Universidade Anhembi Morumbi para a disciplina "Captação e Edição de áudio" do ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/sonoro/">sonoro</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Baquetas/">Baquetas</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/efeito/">efeito</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_394104" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/cactusneon/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cactusneon </font></font></a><br>
+        <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">27 de maio de 2017 </font></font></span><br>
+        <span class="download_count"><a href="https://freesound.org/people/cactusneon/sounds/394104/downloaders/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">115 downloads</font></font></a></span><br>
+        <a class="comments" href="https://freesound.org/people/cactusneon/sounds/394104/#comments"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 0 comentários</font></font></a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/cactusneon/sounds/394104/similar/">
+                <img src="./Freesound - pesquisa de natal_files/headphone--plus.png" width="16" height="16" alt="Semelhante" title="Sons semelhantes">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound - pesquisa de natal_files/nolaw.png" width="16" height="16" alt="Licença de domínio público" title="Este som é de domínio público.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">anterior</font></font></li><li class="next-page"><a href="https://freesound.org/search/?q=natal&amp;s=created+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Próxima página"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">próximo</font></font></a></li><li class="current-page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></li><li class="other-page"><a href="https://freesound.org/search/?q=natal&amp;s=created+desc&amp;g=1&amp;advanced=0&amp;f=&amp;page=2#sound" title="Página 2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></a></li><p class="number_of_results"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            
+                &nbsp;| </font><font style="vertical-align: inherit;">92 sons
+            
+        </font></font></p></ul>
+
+
+            </div>
+        
+
+
+    
+
+
+
+</div> <!-- END of Content area -->
+
+<br class="clear">
+
+
+
+            </div>
+        </div>
+
+        <div id="footer_wrapper">
+            <div id="footer">
+                <div id="cookie-bar">
+                    <div style="float:left">
+                        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Usamos cookies para garantir que você obtenha a melhor experiência em nosso site. </font><font style="vertical-align: inherit;">Ao navegar em nosso site, você concorda com o uso de cookies.
+                            </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                            Para mais informações, verifique nossa </font></font><a href="https://freesound.org/help/cookies_policy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">política de cookies</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .
+                        </font></font></p>
+                    </div>
+                    <div style="float:right; margin-top:10px;margin-right:10px;">
+                        <button id="cookie-accept"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OK</font></font></button>
+                    </div>
+                    <br class="clear">
+
+                </div>
+                <div id="footer_links">
+                    <a href="https://freesound.org/help/developers/"><font style="vertical-align: inherit;"></font></a>
+                    <a href="https://blog.freesound.org/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blog de </font></font></a>
+                    <font style="vertical-align: inherit;"><a href="https://freesound.org/help/developers/"><font style="vertical-align: inherit;">desenvolvedores </font></a></font><a href="https://freesound.org/help/about/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sobre </font></font></a>
+                    
+                    <a href="https://freesound.org/help/tos_web/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Termos de uso</font></font></a>
+                </div>
+                <div id="footer_credits"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                    Design por </font></font><a href="http://www.pixelshell.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pixelshell</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Código por </font></font><a href="https://www.upf.edu/web/mtg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MTG (UPF)</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Alguns direitos reservados.
+                </font></font></div>
+            </div>
+        </div>
+
+        <div id="fsmodal" class="modal"></div>
+    
+    
+        <link rel="stylesheet" type="text/css" href="./Freesound - pesquisa de natal_files/graph-clustering.css">
+        <script src="./Freesound - pesquisa de natal_files/force-graph"></script>
+        <script src="./Freesound - pesquisa de natal_files/d3-quadtree"></script>
+        <script src="./Freesound - pesquisa de natal_files/d3-force"></script>
+        <script src="./Freesound - pesquisa de natal_files/d3-graph-clustering.js.download" type="text/javascript"></script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./Freesound - pesquisa de natal_files/translate_24dp.png" width="20" height="20" alt="Google Tradutor"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Texto original</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Sugerir uma tradução melhor</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+    
+
+<div class="goog-te-spinner-pos goog-te-spinner-pos-show"><div class="goog-te-spinner-animation goog-te-spinner-animation-show"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
